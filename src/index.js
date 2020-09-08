@@ -8,5 +8,4 @@ app.get('/api/test', function (req, res) {
 	});
 });
 
-app.listen(+port, () => console.log(`Listening on http://127.0.0.1:${port}`))
-.catch(e => console.error(e));
+app.listen(+port, () => console.log(`Listening on http://127.0.0.1:${port}`));
